@@ -1,6 +1,11 @@
 components:
 nav bar
-var 1
-var 2
-calculation drop down menu
-ans
+var 1-10
+4 calc variables P to
+5 calc variables (be?) based on entered variables
+conclusion based on variables
+logic: a +b > c ==> conclusion 1
+a + b < c ==> conclusion 2
+
+client appears to want pages to be predetermined, can it be done dynamically?
+client sees logic loading specific 'pages'
