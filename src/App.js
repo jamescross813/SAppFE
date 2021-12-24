@@ -9,7 +9,6 @@ function App() {
     <Router>
         <div className="App">
           <Route to exact path = "/" component={Homepage}/>
-          
         </div>
       </Router>
       
