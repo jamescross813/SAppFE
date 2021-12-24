@@ -8,12 +8,17 @@ import Homepage from "./components/homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <Router>
+        <div className="App">
+          <NavBar />
+          <UsersContainer />
+          <Route to exact path = "/" component={Homepage}/>
+          
+        </div>
+      </Router>
+      
   );
 }
+
 
 export default App;
