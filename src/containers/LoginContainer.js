@@ -16,7 +16,7 @@ class LoginContainer extends Component {
     render() {  
         return (
          <div>
-             <LoginComponent/>
+             <LoginComponent handleLogin={this.handleLogin}/>
          </div>
         );
       }
