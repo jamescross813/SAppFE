@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 class LoginComponent extends Component{
+
+    state = {
+        username: "",
+        password: ""
+    }
+    
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
