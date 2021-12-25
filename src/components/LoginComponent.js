@@ -13,3 +13,5 @@ class LoginComponent extends Component{
         )
     }
 }
+
+export default LoginComponent
