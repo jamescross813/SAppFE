@@ -6,7 +6,12 @@ class LoginComponent extends Component{
         username: "",
         password: ""
     }
-    
+
+    handleSubmit = (event) =>{
+        event.preventDefault()
+        this.props.handleLogin(this.state)
+    }
+
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
