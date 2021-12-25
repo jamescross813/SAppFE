@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import LoginComponent from '../components/LoginComponent'
 
-class LoginFormContainer extends Component {
+class LoginContainer extends Component {
 
     handleLogin = (userInfo)=>{
         let loginInfo = {
@@ -22,4 +22,4 @@ class LoginFormContainer extends Component {
       }
     
 }
-export default LoginFormContainer
+export default LoginContainer
