@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import LoginComponent from '../components/LoginComponent'
 
 class LoginFormContainer extends Component {
 
@@ -15,7 +16,7 @@ class LoginFormContainer extends Component {
     render() {  
         return (
          <div>
-          
+             <LoginComponent/>
          </div>
         );
       }
