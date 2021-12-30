@@ -5,7 +5,7 @@ class UserPageContainer extends Component{
     render(){
         return(
             <div>
-
+                <UserPageComponent />
             </div>
         )
     }
