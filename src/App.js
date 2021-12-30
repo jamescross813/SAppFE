@@ -2,11 +2,11 @@ import './App.css';
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Homepage from "./components/HomepageComponent";
-import LoginContainer from "./containers/LoginContainer";
-import UserPageContainer from "./containers/UserPageContainer";
-import ProjectContainer from "./containers/ProjectContainer"
-import ToDoContainer from "./containers/ToDoContainer"
-import NoteContainer from "./containers/NoteContainer"
+import LoginContainer from "./containers/User/LoginContainer";
+import UserPageContainer from "./containers/User/UserPageContainer";
+import ProjectContainer from "./containers/Project/ProjectContainer"
+import ToDoContainer from "./containers/ToDo/ToDoContainer"
+import NoteContainer from "./containers/Note/NoteContainer"
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ToDoComponent from '../components/ToDoComponent'
+import ToDoComponent from '../../components/ToDo/ToDoComponent'
 
 class ToDoContainer extends Component {
 

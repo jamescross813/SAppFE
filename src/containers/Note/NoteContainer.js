@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NoteComponent from '../components/NoteComponent'
+import NoteComponent from '../../components/Note/NoteComponent'
 
 class NoteContainer extends Component {
 
