@@ -5,7 +5,7 @@ class ProjectComponent extends Component {
     render() {  
         return (
          <div>
-            
+            {/* render project info */}
          </div>
         );
       }
