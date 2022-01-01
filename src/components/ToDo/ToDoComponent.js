@@ -5,7 +5,7 @@ class ToDoComponent extends Component {
     render() {  
         return (
          <div>
-             <ProjectComponent />
+             
          </div>
         );
       }
