@@ -5,7 +5,7 @@ class NoteComponent extends Component {
     render() {  
         return (
          <div>
-             
+             {/* display notes linked */}
          </div>
         );
       }
