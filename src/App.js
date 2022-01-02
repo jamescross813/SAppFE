@@ -8,6 +8,7 @@ import ProjectContainer from "./containers/Project/ProjectContainer"
 import ToDoContainer from "./containers/ToDo/ToDoContainer"
 import NoteContainer from "./containers/Note/NoteContainer"
 import ToDoInputContainer from "./containers/ToDo/ToDoInputContainer"
+import NoteInputContainer from "./containers/Note/NoteInputContainer"
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route to exact path = "project//todo" component={ToDoContainer} />
           <Route to exact path = "project//note" component={NoteContainer} />
           <Route to exact path = "project//todo/add" component={ToDoInputContainer} />
-          
+          <Route to exact path = "project//note/add" component={NoteInputContainer} />
         </div>
       </Router>
       
