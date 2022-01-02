@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import Homepage from "./components/HomepageComponent";
+import HomepageContainer from "./components/Homepage/HomepageComponent";
 import LoginContainer from "./containers/User/LoginContainer";
 import UserPageContainer from "./containers/User/UserPageContainer";
 import ProjectContainer from "./containers/Project/ProjectContainer"
@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
         <div className="App">
-          <Route to exact path = "/" component={Homepage}/>
+          <Route to exact path = "/" component={HomepageContainer}/>
           <Route to exact path = "/login" component={LoginContainer} />
           <Route to exact path = "/user/" component={UserPageContainer} />
           <Route to exact path = "/user//projects" component={ProjectsContainer}/>
