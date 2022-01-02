@@ -5,7 +5,7 @@ class ProjectsComponent extends Component {
     render() {  
         return (
          <div>
-            
+            {/* render list of projects */}
          </div>
         );
       }
