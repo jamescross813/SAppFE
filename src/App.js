@@ -19,8 +19,8 @@ function App() {
           <Route to exact path = "/login" component={LoginContainer} />
           <Route to exact path = "/user/" component={UserPageContainer} />
           <Route to exact path = "/user//projects" component={ProjectContainer}/>
-          <Route to exact path = "project//todo" component={ToDoContainer} />
-          <Route to exact path = "project//note" component={NoteContainer} />
+          <Route to exact path = "projects//todo" component={ToDoContainer} />
+          <Route to exact path = "projects//note" component={NoteContainer} />
           <Route to exact path = "project//todo/add" component={ToDoInputContainer} />
           <Route to exact path = "project//note/add" component={NoteInputContainer} />
           <Route to exact path = "/user//projects/add" component={ProjectInputContainer}/>
