@@ -1,6 +1,6 @@
 import { Component } from "react";
 import NavBar from "./NavBarComponent";
-import LoginContainer from "../containers/User/LoginContainer";
+import LoginContainer from "../../containers/User/LoginContainer";
 
 class Homepage extends Component{
 
