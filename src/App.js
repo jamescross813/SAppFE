@@ -5,7 +5,7 @@ import HomepageContainer from "./components/Homepage/HomepageComponent";
 import LoginContainer from "./containers/User/LoginContainer";
 import UserPageContainer from "./containers/User/UserPageContainer";
 import ProjectContainer from "./containers/Project/ProjectContainer"
-import ProjectsContainer from "./containers/Project/ProjectsContainer"
+// import ProjectsContainer from "./containers/Project/ProjectsContainer"
 import ToDoContainer from "./containers/ToDo/ToDoContainer"
 import NoteContainer from "./containers/Note/NoteContainer"
 import ToDoInputContainer from "./containers/ToDo/ToDoInputContainer"
@@ -19,7 +19,7 @@ function App() {
           <Route to exact path = "/" component={HomepageContainer}/>
           <Route to exact path = "/login" component={LoginContainer} />
           <Route to exact path = "/user/" component={UserPageContainer} />
-          <Route to exact path = "/user//projects" component={ProjectsContainer}/>
+          {/* <Route to exact path = "/user//projects" component={ProjectsContainer}/> */}
           <Route to exact path = "/projects/" component={ProjectContainer}/>
           <Route to exact path = "projects//todo" component={ToDoContainer} />
           <Route to exact path = "projects//note" component={NoteContainer} />
