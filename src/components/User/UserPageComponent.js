@@ -9,3 +9,5 @@ class UserPageComponent extends Component {
         )
     }
 }
+
+export default UserPageComponent
