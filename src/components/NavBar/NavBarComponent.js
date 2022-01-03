@@ -11,17 +11,12 @@ const NavBar = () => {
           Home
         </NavLink>
         <NavLink 
-        to="/projects"
+        to="/user//projects"
         exact
         >
           Projects
         </NavLink>
-        <NavLink 
-        to="/to_dos"
-        exact
-        >
-          To Do
-        </NavLink>
+        {/* add in a calendar link later" */}
     </div>
   );
 };
