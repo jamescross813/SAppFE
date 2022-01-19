@@ -11,11 +11,13 @@ import NoteContainer from "./containers/Note/NoteContainer"
 import ToDoInputContainer from "./containers/ToDo/ToDoInputContainer"
 import NoteInputContainer from "./containers/Note/NoteInputContainer"
 import ProjectInputContainer from "./containers/Project/ProjectInputContainer"
+import NavBar from "./components/NavBar/NavBarComponent";
 
 function App() {
   return (
     <Router>
         <div className="App">
+          <NavBar />
           <Route to exact path = "/" component={HomepageContainer}/>
           <Route to exact path = "/login" component={LoginContainer} />
           <Route to exact path = "/user/" component={UserPageContainer} />
