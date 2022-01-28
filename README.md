@@ -1,3 +1,7 @@
+# SApp!
+
+This app was created by a desperate man who was tired of losing posit notes with app ideas, to do lists and notes thought up in the middle of nowhere. A man who was sure there was a better way. A man who realised that until this app was up and running he'd just created the need for yet more posit notes....
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
